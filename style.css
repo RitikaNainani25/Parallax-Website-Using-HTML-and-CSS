@@ -1,0 +1,256 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2em;
+    color: #666;
+}
+
+.image {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#pimage1 {
+    background-image: url("images/img4.jpg");
+    height: 100%;
+}
+
+#pimage2 {
+    background-image: url("images/img2.jpg");
+    height: 500px;
+}
+
+#pimage3 {
+    background-image: url("images/img7.jpg");
+    height: 500px;
+}
+
+#pimage4 {
+    background-image: url("images/img8.jpg");
+    height: 100%;
+}
+
+.ptext {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.Bgtext {
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    padding: 25px;
+    letter-spacing: 8px;
+    font-size: 40px;
+    transition: font-size 0.5s;
+}
+
+.Bgtext:hover {
+    font-size: 60px;
+    cursor: default;
+}
+
+.section{
+    border-radius: 10px;
+    padding: 10px 100px 20px 100px;
+    text-align: center;
+    background-color: #ffffffc0;
+    color: #313534;
+    border: 3px solid #666;
+    transition: all 0.5s;
+}
+
+.section-bg {
+    background-color: black;
+    transition: all 0.5s;
+}
+
+.section h2 {
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+div.section:hover {
+    margin: 0px 50px;
+    padding: 40px 150px 40px 150px;
+    background-color: transparent;
+    border:none;
+    color: #fff;
+    cursor: default;
+}
+
+@media (max-width: 1024px){
+    html, body {
+        line-height: 1.4em;
+    }
+
+    .section{
+        border-radius: 10px;
+        padding: 8px 70px 10px 70px;
+        text-align: center;
+        background-color: #ffffffc0;
+        color: #313534;
+        border: 3px solid #666;
+        transition: all 0.5s;
+    }
+
+    .section-bg {
+        background-color: black;
+        transition: all 0.5s;
+    }
+
+    div.section:hover {
+        margin: 0px 30px;
+        padding: 10px 80px 15px 80px;
+        background-color: transparent;
+        border:none;
+        color: #fff;
+        cursor: default;
+    }
+
+    .section h2 {
+        letter-spacing: 7px;
+        text-transform: uppercase;
+        font-size: 35px;
+    }
+
+    .section p {
+        font-size: 18px;
+    }
+
+    .Bgtext {
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    padding: 25px;
+    letter-spacing: 7px;
+    font-size: 40px;
+    transition: font-size 0.5s;
+    }
+
+    .Bgtext:hover {
+    font-size: 50px;
+    cursor: default;
+    } 
+}
+@media (max-width : 768px){
+    html, body {
+        line-height: 1.4em;
+    }
+
+    .section{
+        border-radius: 10px;
+        padding: 6px 50px 8px 50px;
+        text-align: center;
+        background-color: #ffffffc0;
+        color: #313534;
+        border: 3px solid #666;
+        transition: all 0.5s;
+    }
+
+    .section-bg {
+        background-color: black;
+        transition: all 0.5s;
+    }
+
+    div.section:hover {
+        margin: 0px 25px;
+        padding: 8px 55px 8px 55px;
+        background-color: transparent;
+        border:none;
+        color: #fff;
+        cursor: default;
+    }
+
+    .section h2 {
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+
+    .section p {
+        font-size: 16px;
+    }
+
+    .Bgtext {
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    padding: 25px;
+    letter-spacing: 6px;
+    font-size: 30px;
+    transition: font-size 0.5s;
+    }
+
+    .Bgtext:hover {
+    font-size: 40px;
+    cursor: default;
+    } 
+
+}
+
+@media (max-width: 425px){
+    html, body {
+        line-height: 1.4em;
+    }
+    .section{
+        border-radius: 10px;
+        padding: 3px 35px 6px 35px;
+        text-align: center;
+        background-color: #ffffffc0;
+        color: #313534;
+        border: 3px solid #666;
+        transition: all 0.5s;
+    }
+
+    .section-bg {
+        background-color: black;
+        transition: all 0.5s;
+    }
+
+    div.section:hover {
+        margin: 0px 20px;
+        padding: 6px 20px 6px 20px;
+        background-color: transparent;
+        border:none;
+        color: #fff;
+        cursor: default;
+    }
+
+    .section h2 {
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    .section p {
+        font-size: 14px;
+    }
+
+    .Bgtext {
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    padding: 25px;
+    letter-spacing: 5px;
+    font-size: 16px;
+    transition: font-size 0.5s;
+    }
+
+    .Bgtext:hover {
+    font-size: 20px;
+    cursor: default;
+    } 
+
+}
